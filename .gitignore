@@ -1,0 +1,25 @@
+# Local Codex/agent workspace files
+.agents/
+.codex/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and crash dumps
+*.log
+*.hprof
+hs_err_pid*.log
+replay_pid*.log
+
+# Secrets/signing
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pem
+**/key.properties
+**/local.properties
